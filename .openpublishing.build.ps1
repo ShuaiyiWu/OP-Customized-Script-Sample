@@ -1,5 +1,5 @@
 param(
-    [string]$buildCorePowershellUrl = "https://opbuildstorageinternal.blob.core.windows.net/opps1container/.openpublishing.buildcore.ps1",
+    [string]$buildCorePowershellUrl = "https://opbuildstoragesandbox2.blob.core.windows.net/opps1container/.openpublishing.buildcore.ps1",
     [string]$parameters
 )
 # Main
