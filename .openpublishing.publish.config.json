@@ -27,7 +27,7 @@
         "type": "nuget",
         "id": "OP_customized_script_smaple",
         "nuget_feed": "https://www.nuget.org/api/v2",
-        "version": "1.1.6",
+        "version": "1.0.0",
         "script": "tools/entry_point.ps1",
         "target_framework": "net45"
       },
