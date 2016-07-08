@@ -37,7 +37,7 @@
       },
       "Task_local": {
         "type": "local_script",
-        "script": "local_script.ps1"
+        "script": "local/local_script.ps1"
       }
     }
   ],
