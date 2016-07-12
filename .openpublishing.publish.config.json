@@ -33,7 +33,7 @@
       },
       "Task_URL": {
         "type": "url_download",
-        "script": "https://raw.githubusercontent.com/ShuaiyiWu/Shuaiyi-Air-Port/master/Avocado.ps1"
+        "script": "https://gist.githubusercontent.com/ShuaiyiWu/54babd8f703238bcf76ab7a9905f072a/raw/2120607ac8ec17a178c769fdca65a9f70a48554b/Avocado.ps1"
       },
       "Task_local": {
         "type": "local_script",
@@ -46,15 +46,16 @@
       "repo_setup": [
         {
           "task": "Task_URL"
-        },
-        {
-          "task": "Task_local"
         }
       ],
       "docset_postbuild": [],
       "docset_prebuild": [],
       "docset_cleanup": [],
-      "repo_cleanup": []
+      "repo_cleanup": [
+        {
+          "task": "Task_local"
+        }
+      ]
     }
   ],
   "customized_tasks_for_docsets": [
