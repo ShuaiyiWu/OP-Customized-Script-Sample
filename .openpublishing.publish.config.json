@@ -59,7 +59,7 @@
   ],
   "customized_tasks_for_docsets": [
     {
-      "customized_script_sample": [
+      "OP_customized_script_sample": [
         {
           "docset_prebuild": [
             {
