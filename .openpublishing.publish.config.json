@@ -4,8 +4,8 @@
   "need_generate_intellisense": false,
   "docsets_to_publish": [
     {
-      "docset_name": "customized_script_sample",
-      "build_source_folder": "customized_script_sample",
+      "docset_name": "OP_customized_script_sample",
+      "build_source_folder": "doc",
       "build_output_subfolder": "customized_script_sample",
       "locale": "en-us",
       "version": 0,
