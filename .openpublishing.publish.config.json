@@ -6,7 +6,7 @@
     {
       "docset_name": "OP_customized_script_sample",
       "build_source_folder": "doc",
-      "build_output_subfolder": "doc",
+      "build_output_subfolder": "customized_script_sample",
       "locale": "en-us",
       "version": 0,
       "open_to_public_contributors": true,
@@ -14,62 +14,12 @@
         "Conceptual": "Content",
         "ManagedReference": "Content",
         "RestApi": "Content"
-      }
+      },
+      "build_entry_point": "op"
     }
   ],
-  "skip_source_output_uploading": false,
   "notification_subscribers": [],
   "branches_to_filter": [],
-  "dependent_repositories": [],
-  "customized_task_definition": [
-    {
-      "Task_nuget": {
-        "type": "nuget",
-        "id": "OP_customized_script_smaple",
-        "nuget_feed": "https://www.nuget.org/api/v2",
-        "version": "1.0.0",
-        "script": "tools/entry_point.ps1",
-        "target_framework": "net45"
-      },
-      "Task_URL": {
-        "type": "url_download",
-        "script": "https://gist.githubusercontent.com/ShuaiyiWu/54babd8f703238bcf76ab7a9905f072a/raw/2120607ac8ec17a178c769fdca65a9f70a48554b/Avocado.ps1"
-      },
-      "Task_local": {
-        "type": "local_script",
-        "script": "local/local_script.ps1"
-      }
-    }
-  ],
-  "customized_tasks": [
-    {
-      "repo_setup": [
-        {
-          "task": "Task_URL"
-        },
-        {
-          "task": "Task_local"
-        }
-      ],
-      "docset_postbuild": [],
-      "docset_prebuild": [],
-      "docset_cleanup": [],
-      "repo_cleanup": []
-    }
-  ],
-  "customized_tasks_for_docsets": [
-    {
-      "customized_script_sample": [
-        {
-          "docset_prebuild": [
-            {
-              "task": "Task_nuget"
-            }
-          ],
-          "docset_postbuild": [],
-          "docset_cleanup": []
-        }
-      ]
-    }
-  ]
+  "skip_source_output_uploading": false,
+  "dependent_repositories": []
 }
