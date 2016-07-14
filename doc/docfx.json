@@ -7,7 +7,7 @@
         ],
         "exclude": [
           "**/obj/**",
-          "customized_script_sample/**",
+          "doc/**",
           "**/includes/**"
         ]
       }
@@ -20,7 +20,7 @@
         ],
         "exclude": [
           "**/obj/**",
-          "customized_script_sample/**",
+          "doc/**",
           "**/includes/**"
         ]
       }
@@ -32,6 +32,6 @@
     "template": [
       null
     ],
-    "dest": "customized_script_sample"
+    "dest": "doc"
   }
 }
