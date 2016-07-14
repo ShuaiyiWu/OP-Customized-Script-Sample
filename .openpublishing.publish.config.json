@@ -46,28 +46,27 @@
       "repo_setup": [
         {
           "task": "Task_URL"
+        },
+        {
+          "task": "Task_local"
         }
       ],
       "docset_postbuild": [],
       "docset_prebuild": [],
       "docset_cleanup": [],
-      "repo_cleanup": [
-        {
-          "task": "Task_local"
-        }
-      ]
+      "repo_cleanup": []
     }
   ],
   "customized_tasks_for_docsets": [
     {
       "customized_script_sample": [
         {
-          "docset_prebuild": [],
-          "docset_postbuild": [
+          "docset_prebuild": [
             {
               "task": "Task_nuget"
             }
           ],
+          "docset_postbuild": [],
           "docset_cleanup": []
         }
       ]
