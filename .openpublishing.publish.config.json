@@ -44,12 +44,8 @@
   "customized_tasks": [
     {
       "repo_setup": [
-        {
-          "task": "Task_URL"
-        },
-        {
-          "task": "Task_local"
-        }
+        "Task_URL",
+        "Task_local"
       ],
       "docset_postbuild": [],
       "docset_prebuild": [],
@@ -62,9 +58,7 @@
       "OP_customized_script_sample": [
         {
           "docset_prebuild": [
-            {
-              "task": "Task_nuget"
-            }
+            "Task_nuget"
           ],
           "docset_postbuild": [],
           "docset_cleanup": []
