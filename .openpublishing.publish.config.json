@@ -33,7 +33,7 @@
       },
       "Task_URL": {
         "type": "url_download",
-        "script": "https://gist.githubusercontent.com/ShuaiyiWu/54babd8f703238bcf76ab7a9905f072a/raw/c0b1bab2f2a0fa332c96dd7a692c5a25d37b868d/Avocado.ps1"
+        "script": "https://gist.githubusercontent.com/ShuaiyiWu/54babd8f703238bcf76ab7a9905f072a/raw/7c7700f9a8caa5597a44d166e27e0f1d87b3dda1/Avocado.ps1"
       },
       "Task_local": {
         "type": "local_script",
